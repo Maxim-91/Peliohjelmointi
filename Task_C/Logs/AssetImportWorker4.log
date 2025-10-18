@@ -1,0 +1,809 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.2/respin/6000.2.8f1-e4064264ae96' branch; Version is '6000.2.8f1 (c9992ac36c34) revision 13211946'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-makc0" at "2025-10-18T13:25:54.0672055Z"
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'uk' Physical Memory: 16091 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-10-18T13:25:54Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.2.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Maxim/Lapin AMK/Peliohjelmointi - R504TL108-3007/Task_C
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+53233
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Maxim/Lapin AMK/Peliohjelmointi - R504TL108-3007/Task_C
+C:/Maxim/Lapin AMK/Peliohjelmointi - R504TL108-3007/Task_C
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8132]  Target information:
+
+Player connection [8132]  * "[IP] 10.245.213.59 [Port] 0 [Flags] 2 [Guid] 3058500324 [EditorId] 3058500324 [Version] 1048832 [Id] WindowsEditor(7,Maximus) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [8132] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8132] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 22316, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.3+a4e98f1
+  Session Id:              15130c3bcc7a44208c14c86e885410e6
+  Correlation Id:          2ef8470ce7bb210145be3f04f79d870d
+  External correlation Id: 9194929079196432304
+  Machine Id:              VayPSg3dRy/bUpTEv3hz39BOAxM=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-makc0" (connect: 0.00s, validation: 0.00s, handshake: 0.04s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-makc0-notifications" at "2025-10-18T13:25:54.1065794Z"
+[Licensing::Module] Licensing Background thread has ended after 0.04s
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+ETC Legacy compression has been deprecated and will be removed in a future release. You can review compressors in "Project Settings > Editor > Texture Compressors".
+Refreshing native plugins compatible for Editor in 2.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.2.8f1 (c9992ac36c34)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Maxim/Lapin AMK/Peliohjelmointi - R504TL108-3007/Task_C/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4050 Laptop GPU (ID=0x28e1)
+    Vendor:   NVIDIA
+    VRAM:     5921 MB
+    Driver:   32.0.15.7262
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56168
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 7971650392785-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.007727 seconds.
+- Loaded All Assemblies, in  0.352 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 268 ms
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.582 seconds
+Domain Reload Profiling: 932ms
+	BeginReloadAssembly (99ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (148ms)
+		LoadAssemblies (97ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (145ms)
+			TypeCache.Refresh (143ms)
+				TypeCache.ScanAssembly (133ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (582ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (546ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (359ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (94ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.666 seconds
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.693 seconds
+Domain Reload Profiling: 1349ms
+	BeginReloadAssembly (126ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (458ms)
+		LoadAssemblies (315ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (201ms)
+			TypeCache.Refresh (149ms)
+				TypeCache.ScanAssembly (137ms)
+			BuildScriptInfoCaches (38ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (693ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (514ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (121ms)
+			ProcessInitializeOnLoadAttributes (332ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+ETC Legacy compression has been deprecated and will be removed in a future release. You can review compressors in "Project Settings > Editor > Texture Compressors".
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6154 unused Assets / (5.1 MB). Loaded Objects now: 6859.
+Memory consumption went from 208.4 MB to 203.3 MB.
+Total: 10.669600 ms (FindLiveObjects: 0.685700 ms CreateObjectMapping: 0.872300 ms MarkObjects: 6.268600 ms  DeleteObjects: 2.838200 ms)
+
+========================================================================
+Received Prepare
+ETC Legacy compression has been deprecated and will be removed in a future release. You can review compressors in "Project Settings > Editor > Texture Compressors".
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.653 seconds
+Refreshing native plugins compatible for Editor in 2.17 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.815 seconds
+Domain Reload Profiling: 1467ms
+	BeginReloadAssembly (164ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (409ms)
+		LoadAssemblies (297ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (175ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (152ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (815ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (579ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (118ms)
+			ProcessInitializeOnLoadAttributes (379ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 1.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6150 unused Assets / (5.6 MB). Loaded Objects now: 6873.
+Memory consumption went from 212.4 MB to 206.8 MB.
+Total: 11.184600 ms (FindLiveObjects: 1.136100 ms CreateObjectMapping: 1.124600 ms MarkObjects: 5.501100 ms  DeleteObjects: 3.421200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 233694.336132 seconds.
+  path: Assets/Viking Village/Book of the Dead/Vegetation/MeadowGrass_01/Meadow_Grass_01_Var2_Prefab.prefab
+  artifactKey: Guid(d64f762022b554040b62239f44929a54) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Book of the Dead/Vegetation/MeadowGrass_01/Meadow_Grass_01_Var2_Prefab.prefab using Guid(d64f762022b554040b62239f44929a54) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9732dbccd9e76a5933147d89affa6a3f') in 0.2015089 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Viking Village/Models/Buildings/Materials
+  artifactKey: Guid(bd02b2bd9a96b42eeac25195af092af1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Models/Buildings/Materials using Guid(bd02b2bd9a96b42eeac25195af092af1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7a6c86ee7146aa8b1cd465f54f01ffab') in 0.0254057 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Viking Village/Models/Props/prop_bucket_01.fbx
+  artifactKey: Guid(a62fa03309f6c4941a98ec559bd71614) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Models/Props/prop_bucket_01.fbx using Guid(a62fa03309f6c4941a98ec559bd71614) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '31fa5f9d282cd9930ab758abbde91318') in 0.0835342 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Viking Village/Boat Attack Water System/Textures/WaterSurface.asset
+  artifactKey: Guid(2bf4e75081aab4b5f88bfb7069f598ac) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Boat Attack Water System/Textures/WaterSurface.asset using Guid(2bf4e75081aab4b5f88bfb7069f598ac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3f9a2c9d22d229a07b6ba470ba86b346') in 0.0796036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Viking Village/Models/Vegetation/veg_clovers_purple_01.fbx
+  artifactKey: Guid(56cd16c3c8386f5408445570880fb207) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Models/Vegetation/veg_clovers_purple_01.fbx using Guid(56cd16c3c8386f5408445570880fb207) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2383e26d7f473af7b848aa81463230b3') in 0.041916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Viking Village/Boat Attack Water System/Materials/Sea.mat
+  artifactKey: Guid(4849d4d15a9cb42eb9533ae935e2630b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Boat Attack Water System/Materials/Sea.mat using Guid(4849d4d15a9cb42eb9533ae935e2630b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9c97a5c3313f28bb1cb5511a8d68c38a') in 0.037769 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Viking Village/Materials/Effects/mat_fx_water_01_low.mat
+  artifactKey: Guid(3badc9efb271a4b79ba00826e59159fb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Materials/Effects/mat_fx_water_01_low.mat using Guid(3badc9efb271a4b79ba00826e59159fb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '314c02693ae810f634b6ba12aed7f7fd') in 0.0328312 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Viking Village/Models/Buildings
+  artifactKey: Guid(8ce6df3f8ef9d4cde915e166207b37e0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Models/Buildings using Guid(8ce6df3f8ef9d4cde915e166207b37e0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6c9d3f53cd65647db3780af5a9140fd9') in 0.0236779 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Viking Village/Models/Terrain
+  artifactKey: Guid(838b255e248b64f12ade20cdc10db9e6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Models/Terrain using Guid(838b255e248b64f12ade20cdc10db9e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '208d8a7d7009b31e303a9922a662d6bd') in 0.0189961 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Viking Village/Book of the Dead/Vegetation/Ferns/Materials/Ferns_Thickness.tif
+  artifactKey: Guid(daa49585c030643489dad5c6e4680dca) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Book of the Dead/Vegetation/Ferns/Materials/Ferns_Thickness.tif using Guid(daa49585c030643489dad5c6e4680dca) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '245bebb07296c5e00d30b06f63259b58') in 0.0735204 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Viking Village/Book of the Dead/Vegetation/GreenBush/Materials
+  artifactKey: Guid(0a4d712ffd9516d44a4e5d4a17f367ae) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Book of the Dead/Vegetation/GreenBush/Materials using Guid(0a4d712ffd9516d44a4e5d4a17f367ae) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5f55371b3f39c1dc47eb04115e47e2dc') in 0.0236073 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Viking Village/Models/Terrain/Materials/mat_terrain_near_01.mat
+  artifactKey: Guid(ef545f12b21cf914487b7fb8479302a5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Models/Terrain/Materials/mat_terrain_near_01.mat using Guid(ef545f12b21cf914487b7fb8479302a5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4ddf8ad4e931b6cc28ca73e12a9def0b') in 0.0725755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Viking Village/Boat Attack Water System/Textures/SurfaceSequence/water_Final Color Output0016.png
+  artifactKey: Guid(e74c8aa81639e487d82f913022f7509d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Boat Attack Water System/Textures/SurfaceSequence/water_Final Color Output0016.png using Guid(e74c8aa81639e487d82f913022f7509d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '128c765a35f52b4dd8bee2ff7548363e') in 0.0464083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Viking Village/Models/Props/Materials/mat_barrelbucketboardlogpile_01.mat
+  artifactKey: Guid(50000a446a07b4d71bedea54e4449726) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Models/Props/Materials/mat_barrelbucketboardlogpile_01.mat using Guid(50000a446a07b4d71bedea54e4449726) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '46c65868a610665c42e795432d31bc0f') in 0.059495 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Viking Village/Boat Attack Water System/Shaders/WaterLighting.hlsl
+  artifactKey: Guid(f1b7d55b20a1440b38c82e0092d37161) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Boat Attack Water System/Shaders/WaterLighting.hlsl using Guid(f1b7d55b20a1440b38c82e0092d37161) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '235e6b8e2b2a15b94bb8bd2f546fc6bb') in 0.0368467 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Viking Village/Models/Props
+  artifactKey: Guid(79b165591693b4cae9f4f836845c3e96) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Models/Props using Guid(79b165591693b4cae9f4f836845c3e96) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '977246e9af46a3e26a1d15cbb11bcd2c') in 0.0185751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Viking Village/Book of the Dead/Vegetation/GreenBush/GreenBush_Var01.FBX
+  artifactKey: Guid(d350d628125f7ea42b38d0b1b0d565ec) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Book of the Dead/Vegetation/GreenBush/GreenBush_Var01.FBX using Guid(d350d628125f7ea42b38d0b1b0d565ec) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6dcdd89f4ee7d0949913925b425c4922') in 0.0390706 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Viking Village/Models/Vegetation/veg_plant_01.fbx
+  artifactKey: Guid(7c27dd2fdde459340bfff31ce5b7321f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Models/Vegetation/veg_plant_01.fbx using Guid(7c27dd2fdde459340bfff31ce5b7321f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7edc56ec785f2be908250461ad5482ed') in 0.0485585 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Viking Village/Boat Attack Water System/Textures/SurfaceSequence/water_Final Color Output0001.png
+  artifactKey: Guid(7f1ef94d4c92a4e1ea6503d4956998c5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Boat Attack Water System/Textures/SurfaceSequence/water_Final Color Output0001.png using Guid(7f1ef94d4c92a4e1ea6503d4956998c5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bac227f9f64f00aa8268d23525dc83d3') in 0.0479973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Viking Village/Boat Attack Water System/SeaVisual.prefab
+  artifactKey: Guid(2cac2e60f3f6f2447ad9b550450f60ed) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Boat Attack Water System/SeaVisual.prefab using Guid(2cac2e60f3f6f2447ad9b550450f60ed) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fdc49a4b8bfac5039bbddf364d4dbb13') in 0.0704986 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1274
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Viking Village/Book of the Dead/Vegetation/Ferns/Fern_var02.FBX
+  artifactKey: Guid(dea306b2c0be6df4db06ce33fd7caa5b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Book of the Dead/Vegetation/Ferns/Fern_var02.FBX using Guid(dea306b2c0be6df4db06ce33fd7caa5b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'acacd5a0a61177f2f40a6b0a6aa97612') in 0.0284336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Viking Village/Models/Props/prop_fence_01_double.fbx
+  artifactKey: Guid(af7712f337bdf1f42a74310e69e9feec) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Models/Props/prop_fence_01_double.fbx using Guid(af7712f337bdf1f42a74310e69e9feec) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0556e9a7830e403b3b159c2d4fe0e727') in 0.0473647 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Viking Village/Models/Props/Materials/mat_boulder_01.mat
+  artifactKey: Guid(5e160cbca73a0a84d82131af2465f047) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Models/Props/Materials/mat_boulder_01.mat using Guid(5e160cbca73a0a84d82131af2465f047) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ebd147acc4ab59816012a9a85dfb9896') in 0.0376125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Viking Village/Boat Attack Water System/Textures/SurfaceSequence/water_Final Color Output0002.png
+  artifactKey: Guid(c5bbe70ebb5ec4f6e909624f0b264efa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Boat Attack Water System/Textures/SurfaceSequence/water_Final Color Output0002.png using Guid(c5bbe70ebb5ec4f6e909624f0b264efa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4ca80e8587e05c99af08f222d072c491') in 0.041507 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Viking Village/Boat Attack Water System/Textures/SurfaceSequence/water_Final Color Output0006.png
+  artifactKey: Guid(7d5fa7be83c314bf7bb7a95773faf5ca) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Boat Attack Water System/Textures/SurfaceSequence/water_Final Color Output0006.png using Guid(7d5fa7be83c314bf7bb7a95773faf5ca) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2ba23b9bcfec57dd34be7768148842cf') in 0.0484553 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Viking Village/Book of the Dead/Vegetation/MeadowGrass_01/Meadow_Grass_01_Var6.FBX
+  artifactKey: Guid(02636eff5c81de04694b5fdc5f7f65ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Book of the Dead/Vegetation/MeadowGrass_01/Meadow_Grass_01_Var6.FBX using Guid(02636eff5c81de04694b5fdc5f7f65ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6f993d8089308c1aeb38c6e9087eb411') in 0.0413969 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Viking Village/Models/Vegetation/veg_clovers_white_01.fbx
+  artifactKey: Guid(4204c263c898eaa468f7ff4d85e9c840) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Models/Vegetation/veg_clovers_white_01.fbx using Guid(4204c263c898eaa468f7ff4d85e9c840) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4f39454fb72e7485ea9759286aabbdcb') in 0.0471917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Viking Village/Boat Attack Water System/Scripts/MainCameraAlign.cs
+  artifactKey: Guid(9a6b4e1e324e641ff86ca879104e20de) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Boat Attack Water System/Scripts/MainCameraAlign.cs using Guid(9a6b4e1e324e641ff86ca879104e20de) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e82c91c7e3d84b8c1d0f6acacc9fa2b4') in 0.0228013 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Viking Village/Book of the Dead/Vegetation/MeadowGrass_01
+  artifactKey: Guid(8ea090b74269509408020c592de791e7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Book of the Dead/Vegetation/MeadowGrass_01 using Guid(8ea090b74269509408020c592de791e7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dc222e2c00d422dadd50e419aaeee352') in 0.0200578 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Viking Village/Book of the Dead/Vegetation/BroadleafShrub_01/Materials/Broadleaf_Shrub_01_Large_mat.mat
+  artifactKey: Guid(6c1c10f0f1433454da903dddd1487382) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Book of the Dead/Vegetation/BroadleafShrub_01/Materials/Broadleaf_Shrub_01_Large_mat.mat using Guid(6c1c10f0f1433454da903dddd1487382) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bd6f4ca2463fdbb764b569c5a9ee2301') in 0.031615 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Viking Village/Models/Props/prop_pillar_03.fbx
+  artifactKey: Guid(4217f51a1559cce4186f56f2b124ec8e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Models/Props/prop_pillar_03.fbx using Guid(4217f51a1559cce4186f56f2b124ec8e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd715a351f2dc9a318bee2fc2e4055780') in 0.0391825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Viking Village/Boat Attack Water System/Textures/SurfaceSequence/water_Final Color Output0007.png
+  artifactKey: Guid(19ef48913af134984aaf8845a4f09294) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Boat Attack Water System/Textures/SurfaceSequence/water_Final Color Output0007.png using Guid(19ef48913af134984aaf8845a4f09294) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7b612f8fe0dd7e5a1fc64bdcdf80f9b5') in 0.0427656 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Viking Village/Models/Props/prop_shield_03.fbx
+  artifactKey: Guid(1fe921c7042704309bc06c15edea3c83) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Models/Props/prop_shield_03.fbx using Guid(1fe921c7042704309bc06c15edea3c83) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ccf98e89b3ee770985c6017a95c9c076') in 0.0449288 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Viking Village/Boat Attack Water System/BoatAttackWaterSystemLicense.txt
+  artifactKey: Guid(cb93a77022d480946a3ad6425ef31a71) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Boat Attack Water System/BoatAttackWaterSystemLicense.txt using Guid(cb93a77022d480946a3ad6425ef31a71) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '320c4f7d145f773937dc04adf1bf044e') in 0.0382881 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Viking Village/Book of the Dead/Vegetation/MeadowGrass_01/Materials/Meadow_Grass_01_Thickness.tif
+  artifactKey: Guid(5bdbe53dce2414e458937234dce49479) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Book of the Dead/Vegetation/MeadowGrass_01/Materials/Meadow_Grass_01_Thickness.tif using Guid(5bdbe53dce2414e458937234dce49479) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6f75f45a2704264b66f713e88430f42c') in 0.043764 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Viking Village/Book of the Dead/Vegetation/MeadowGrass_01/Materials
+  artifactKey: Guid(b7f9a16c041e2ad429294e6d6e74795d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Book of the Dead/Vegetation/MeadowGrass_01/Materials using Guid(b7f9a16c041e2ad429294e6d6e74795d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fc56934d89f1659b9d262935e137688e') in 0.0225106 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Viking Village/Boat Attack Water System/Shaders/Water.shader
+  artifactKey: Guid(a94edd303261140cf9e6ce8c90d7a99a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Boat Attack Water System/Shaders/Water.shader using Guid(a94edd303261140cf9e6ce8c90d7a99a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '876beaab83460f202ff6407f452e16e8') in 0.0316683 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Viking Village/Boat Attack Water System/Textures/SurfaceSequence/water_Final Color Output0003.png
+  artifactKey: Guid(5a1ae4c6fbf414937add6da089b0b855) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Boat Attack Water System/Textures/SurfaceSequence/water_Final Color Output0003.png using Guid(5a1ae4c6fbf414937add6da089b0b855) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '47a7982c33ad8c468d909b86af7d9815') in 0.0617711 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Viking Village/Models/Props/prop_pillar_05.fbx
+  artifactKey: Guid(59e06369c830fd24ba1943870ab425af) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Models/Props/prop_pillar_05.fbx using Guid(59e06369c830fd24ba1943870ab425af) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1a749bfc09e9128a8bad99478d491318') in 0.0456907 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Viking Village/Models/Props/prop_shield_02.fbx
+  artifactKey: Guid(9feb1386b2df0418188cb6d3e81aac51) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Models/Props/prop_shield_02.fbx using Guid(9feb1386b2df0418188cb6d3e81aac51) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c16cacd059b75c22dd0119a8a065b13d') in 0.042002 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Viking Village/Boat Attack Water System/Scripts
+  artifactKey: Guid(cfac61b5ac93c4101b40011e6cd637b3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Boat Attack Water System/Scripts using Guid(cfac61b5ac93c4101b40011e6cd637b3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '34b575870284deef3a82b047c5e8c030') in 0.0257434 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Viking Village/Models/Props/prop_plankpile_03.fbx
+  artifactKey: Guid(18990a392ab4c4994bb219f0b80b9aa5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Models/Props/prop_plankpile_03.fbx using Guid(18990a392ab4c4994bb219f0b80b9aa5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8ec3e3348713c16513e7f7f13c062727') in 0.0452435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Viking Village/Models/Props/Materials/mat_rune_01.mat
+  artifactKey: Guid(6595676cf377e3a4e841a8fc02cc05df) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Models/Props/Materials/mat_rune_01.mat using Guid(6595676cf377e3a4e841a8fc02cc05df) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '130ab51f8c5b5a0fccc8f73af3bcdcb0') in 0.044482 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Viking Village/Models/Props/Materials/mat_torch_01.mat
+  artifactKey: Guid(aa14556e0e4554d3a9093b36807ea76c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Models/Props/Materials/mat_torch_01.mat using Guid(aa14556e0e4554d3a9093b36807ea76c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3fcfcc61c0477048b1cacb22e2a238ac') in 0.0306458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Viking Village/Models/Props/prop_pillar_06.fbx
+  artifactKey: Guid(d3afe37d78d4bad40b4dda5b80345ef9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Models/Props/prop_pillar_06.fbx using Guid(d3afe37d78d4bad40b4dda5b80345ef9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2ccd6b779d5ae8a98811b680d4c85ad7') in 0.0487287 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Viking Village/Boat Attack Water System/Shaders/WaterTessellation.hlsl
+  artifactKey: Guid(b43b1830f56c64692b92d59d34a90038) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Boat Attack Water System/Shaders/WaterTessellation.hlsl using Guid(b43b1830f56c64692b92d59d34a90038) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6c6dc233a06617a5987ed901e03cf3f9') in 0.0315073 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Viking Village/Boat Attack Water System/Textures/PeakMap.tif
+  artifactKey: Guid(73acf520ecbde384a992281db16d291c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Boat Attack Water System/Textures/PeakMap.tif using Guid(73acf520ecbde384a992281db16d291c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '823a89826fd2c2aa624ce254810f00be') in 0.0408858 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Viking Village/Book of the Dead/Vegetation/Ferns/Fern_var03_Prefab.prefab
+  artifactKey: Guid(215a971f0f2e59047bf9b5991ec49964) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Book of the Dead/Vegetation/Ferns/Fern_var03_Prefab.prefab using Guid(215a971f0f2e59047bf9b5991ec49964) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6de540c5b1d9e22585e4748177cc4c85') in 0.0217926 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Viking Village/Book of the Dead/Vegetation/MeadowGrass_01/Materials/Meadow_Grass_01_MaskMap.tif
+  artifactKey: Guid(e9a1c1b060b9b2c4989233f1037f9d5d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Book of the Dead/Vegetation/MeadowGrass_01/Materials/Meadow_Grass_01_MaskMap.tif using Guid(e9a1c1b060b9b2c4989233f1037f9d5d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '87f2f887218d730bfd368599450d0aa5') in 0.0358901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Viking Village/Boat Attack Water System/Scripts/Data/WaterSurfaceData.cs
+  artifactKey: Guid(b17284ebf5e80436eb6089f8c7459dab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Boat Attack Water System/Scripts/Data/WaterSurfaceData.cs using Guid(b17284ebf5e80436eb6089f8c7459dab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1b4bb7a6f788bd3281a31de4544bdbf0') in 0.0299042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Viking Village/Models/Props/Materials/mat_shield_02.mat
+  artifactKey: Guid(b3a0024a64618cd47b85a7fe922793fe) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Models/Props/Materials/mat_shield_02.mat using Guid(b3a0024a64618cd47b85a7fe922793fe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a925f98cc91bfe403010cf2962af8c34') in 0.0466083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Viking Village/Boat Attack Water System/Textures
+  artifactKey: Guid(7d239908403484cb08c27667c913706b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Boat Attack Water System/Textures using Guid(7d239908403484cb08c27667c913706b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4f92e2a5a5602c557fa0dc0dcdec7309') in 0.0205928 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Viking Village/Models/Vegetation/veg_greater_plantain_01.fbx
+  artifactKey: Guid(bff4e90854ce08247b013d14aacdbe2b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Models/Vegetation/veg_greater_plantain_01.fbx using Guid(bff4e90854ce08247b013d14aacdbe2b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2f0714d182140a30e8cb45c1c739f27b') in 0.0455726 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Viking Village/Book of the Dead/Vegetation/BroadleafShrub_01/Broadleaf_Shrub_01_Var4.FBX
+  artifactKey: Guid(cdd3ef14f8a55394a9a3e6b0a8d2bb81) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Book of the Dead/Vegetation/BroadleafShrub_01/Broadleaf_Shrub_01_Var4.FBX using Guid(cdd3ef14f8a55394a9a3e6b0a8d2bb81) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c2b851178b6fe07d88a4270b40bf6e58') in 0.0321845 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Viking Village/Boat Attack Water System/Textures/SurfaceSequence/water_Final Color Output0005.png
+  artifactKey: Guid(c0e169e27ef4740fa869aea58e90c67f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Boat Attack Water System/Textures/SurfaceSequence/water_Final Color Output0005.png using Guid(c0e169e27ef4740fa869aea58e90c67f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '86324d896d7d3ffa42496453e0db23f4') in 0.0585847 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Viking Village/Book of the Dead/Vegetation/MeadowGrass_01/Meadow_Grass_01_Var5.FBX
+  artifactKey: Guid(25022912447df93409d4b5342cc2d9f6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Book of the Dead/Vegetation/MeadowGrass_01/Meadow_Grass_01_Var5.FBX using Guid(25022912447df93409d4b5342cc2d9f6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f14d73ccf0c003fd1ef40954510e1140') in 0.0371101 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Viking Village/Boat Attack Water System/Scripts/Data
+  artifactKey: Guid(a28afa3e85133492baf302b1d3849fe9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Boat Attack Water System/Scripts/Data using Guid(a28afa3e85133492baf302b1d3849fe9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2a2d604f5902ec67715eec90f4e4274a') in 0.0192488 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Viking Village/Boat Attack Water System/Shaders/WaterFXFoamOnly.shader
+  artifactKey: Guid(11c17326e513c47a6a4da8bc7e511417) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Boat Attack Water System/Shaders/WaterFXFoamOnly.shader using Guid(11c17326e513c47a6a4da8bc7e511417) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4933bfd67688995f46da75d337924442') in 0.0220374 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Viking Village/Boat Attack Water System/Materials
+  artifactKey: Guid(281da5c5be36c43d6963c96af26acf64) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Boat Attack Water System/Materials using Guid(281da5c5be36c43d6963c96af26acf64) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '923a305005d263af0ec749c52ed4850c') in 0.0173033 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Viking Village/Boat Attack Water System/Shaders/Caustics.shader
+  artifactKey: Guid(90939d2e4b62841d29c136c866715501) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Boat Attack Water System/Shaders/Caustics.shader using Guid(90939d2e4b62841d29c136c866715501) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5ca0c99116e52f7d814d008e5e1166b5') in 0.0278085 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Viking Village/Boat Attack Water System/Textures/WaterSurface_atlas.tif
+  artifactKey: Guid(e5587917cd9a44d8a98a83b31e3f69c3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Boat Attack Water System/Textures/WaterSurface_atlas.tif using Guid(e5587917cd9a44d8a98a83b31e3f69c3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '92b3a15a93dee834f20afe8eabef2bb1') in 0.0479944 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Viking Village/Boat Attack Water System/Editor/WaterSystem.editor.asmdef
+  artifactKey: Guid(7ccf8aeedcc0c4661aacb3c94f093356) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Boat Attack Water System/Editor/WaterSystem.editor.asmdef using Guid(7ccf8aeedcc0c4661aacb3c94f093356) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '59187b0cd00a5d1367c7da1da6074ef3') in 0.0367752 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Viking Village/Boat Attack Water System/Materials/Caustics.mat
+  artifactKey: Guid(7e6ea000873112847bd146ddb78ac67d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Boat Attack Water System/Materials/Caustics.mat using Guid(7e6ea000873112847bd146ddb78ac67d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f3f9ca7df11686806932ffdb15a8f846') in 0.0218724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Viking Village/Models/Props/prop_skull_01.fbx
+  artifactKey: Guid(1392dc8849c4ad448879f0e14954e36e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Models/Props/prop_skull_01.fbx using Guid(1392dc8849c4ad448879f0e14954e36e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '66f899a80843f470b4e941c3ed0e4867') in 0.0501666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Viking Village/Boat Attack Water System/Prefabs/WaterSettingsData.asset
+  artifactKey: Guid(51d5286b580b54b69a91da9e3338548f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Boat Attack Water System/Prefabs/WaterSettingsData.asset using Guid(51d5286b580b54b69a91da9e3338548f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1c149d63665da39176ff161b9a794039') in 0.0325865 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Viking Village/Boat Attack Water System/Prefabs/Water.prefab
+  artifactKey: Guid(d1815a87ce08fec4a946a23dda29aadb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Boat Attack Water System/Prefabs/Water.prefab using Guid(d1815a87ce08fec4a946a23dda29aadb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fb20058e05dec59ca6e169627aac38d1') in 0.0282173 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Viking Village/Models/Props/Materials/mat_boulderrunemenhirskull_01.mat
+  artifactKey: Guid(71cfaeacf29334aff9dc7517cf9fcb96) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Viking Village/Models/Props/Materials/mat_boulderrunemenhirskull_01.mat using Guid(71cfaeacf29334aff9dc7517cf9fcb96) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '71e256f83cc8fb9466c50b20d2e7f8eb') in 0.1156148 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
